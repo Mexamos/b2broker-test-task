@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "b2broker-test-task"
+version = "0.1.0"
+description = ""
+authors = ["Maksim Tolstikov <mexamos0@gmail.com>"]
+readme = "README.md"
+packages = [{include = "b2broker_test_task"}]
+
+[tool.poetry.dependencies]
+python = "3.11.0"
+django = "4.1.1"
+djangorestframework = "3.14.0"
+django-filter = "^23.2"
+djangorestframework-jsonapi = "^6.0.0"
+mysql-connector-python = "^8.0.33"
+mysqlclient = "^2.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
