@@ -5,7 +5,7 @@ services:
   app:
     build: .
     restart: always
-    command: bash -c "sleep 2; python ./b2broker/manage.py runserver 0.0.0.0:8000"
+    command: bash -c "sleep 5; python ./b2broker/manage.py runserver 0.0.0.0:8000"
     volumes:
       - .:/code
     ports:
